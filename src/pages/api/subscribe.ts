@@ -47,7 +47,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       line_items: [{ price: 'price_1IZfs8FF6LwLlRRNOCvQLG3S', quantity: 1 }],
       mode: 'subscription',
       allow_promotion_codes: true,
-      success_url: process.env.STRIPE_SECCESS_URL,
+      success_url: process.env.STRIPE_SUCCESS_URL,
       cancel_url: process.env.STRIPE_CANCEL_URL,
     });
 
