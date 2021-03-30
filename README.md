@@ -16,15 +16,15 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/jarlei3m/ig-news?style=plastic">
   <a href="https://github.com/jarlei3m/ig-news/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jarlei3m/ig-news?style=plastic">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jarlei3m/ig-news?style=plastic&color=yellow">
   </a>
 
   <a href="https://github.com/jarlei3m/ig-news/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/jarlei3m/Comfy-Sloth-Store-ReactJS?style=plastic">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/jarlei3m/ig-news?style=plastic&color=yellow">
   </a>
   
   <a href="https://github.com/Jarlei3m/ig-news/blob/master/LICENSE">
-    <img alt="GitHub" src="https://img.shields.io/github/license/jarlei3m/ig-news?style=plastic">
+    <img alt="GitHub" src="https://img.shields.io/github/license/jarlei3m/ig-news?style=plastic&color=successs">
   </a>
 </p>
 
