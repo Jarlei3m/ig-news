@@ -79,7 +79,7 @@ Before you clone this repository, you gonna need to follow these steps:
 
  - Then, click on Save product and get API ID of the price, which will be something like ```price_1IZfs8FF8LwLlEROOCvQVX2S```, now you need to replace in the function getStaticProps located on ```/src/pages/index.tsx``` the current api id for your new API ID.
  - On tab Developers, get your secret key and save on your ```.env.local``` file as ```STRIPE_API_KEY=put_your_SECRET_KEY_here```.
- - On tab Settings -> checkout settings -> configure webhooks -> click on ```instal CLI```button and follow the instructions acoording to your OS.
+ - On tab Settings -> checkout settings -> configure webhooks -> click on ```instal CLI```button and follow the instructions according to your OS.
  - After stripe has been installed, on your terminal ```$ stripe login``` -> Press Enter -> stripe page will open, click ```Allow Access```.
  - Now, to start listen the webhooks, on your terminal ```$ stripe listen --forward-to localhost:3000/api/webhooks ``` a message with your webhook sign secret will be shown, copy and save on ```.env.local``` as ```STRIPE_WEBHOOK_SECRET=put_your_WEBHOOK_SECRET_here``` 
  - For the last, on ```.env.local``` save ```STRIPE_SUCCESS_URL=http://localhost:3000/posts``` and ```STRIPE_CANCEL_URL=http://localhost:3000```.
