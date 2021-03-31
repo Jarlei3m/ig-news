@@ -60,7 +60,7 @@ Before you clone this repository, you gonna need to follow these steps:
  ### Faunadb: 
  - Access [Faunadb](https://fauna.com/) and create an account, 
  - Click on ```New Database```, you can call it ignews but it's not a must ,
- - After database has been created, you need to create 2 Collections that must must must have the names: ```subscriptions``` and ```users```,
+ - After database has been created, you need to create 2 Collections that must have the names: ```subscriptions``` and ```users```,
  - Now you need to create 5 Index for this database, click on New Index and for each one fill the fields as follow:
  
     1) ##### Index Name: ```subscription_by_id```  |  Source Collection: ```subscriptions```  |  Terms: ```data.id```
