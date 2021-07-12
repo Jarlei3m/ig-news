@@ -3,7 +3,6 @@ import { mocked } from "ts-jest/utils";
 
 import Posts, { getStaticProps } from "../../pages/posts";
 
-import Prismic from "@prismicio/client";
 import { getPrismicClient } from "../../services/prismic";
 
 jest.mock("../../services/prismic");
