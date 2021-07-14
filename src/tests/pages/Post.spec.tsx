@@ -36,7 +36,7 @@ describe("Post Page", () => {
     expect(response).toEqual(
       expect.objectContaining({
         redirect: expect.objectContaining({
-          destination: "/",
+          destination: `/posts/preview/my-new-post`,
         }),
       })
     );
