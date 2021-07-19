@@ -24,7 +24,6 @@ const relevantEvents = new Set([
   "checkout.session.completed",
   "customer.subscription.updated",
   "customer.subscription.deleted",
-  "customer.subscription.created",
 ]);
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
@@ -80,7 +79,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       }
     }
 
-    res.json({ received: true });
+    return res.json({ received: true });
   } else {
     res.setHeader("Allow", "POST");
     res.status(405).end("Method not allowed");
