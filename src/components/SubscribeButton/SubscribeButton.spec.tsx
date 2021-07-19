@@ -41,7 +41,7 @@ describe("SubscribeButton component", () => {
     useSessionMocked.mockReturnValueOnce([
       {
         user: { name: "Jhon Doe", email: "j.d@example.com" },
-        activeSubscription: "fake-active-sub",
+        activeSubscription: "fake-active-subscription",
         expires: "fake-expires",
       },
       false,
